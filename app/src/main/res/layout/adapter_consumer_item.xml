@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="3dp"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundList"
+    >
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#8E8E8E"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="ID: 1234"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#8E8E8E"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvId"
+        android:text="Name: Sofia"
+        android:paddingLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#8E8E8E"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvName"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:layout_alignParentRight="true"
+        android:text="Pwd: aah234"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
